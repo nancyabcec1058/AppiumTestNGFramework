@@ -20,7 +20,7 @@ import io.appium.java_client.android.options.UiAutomator2Options;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
 public class AppiumIOSBasics extends IOSBaseTest{
-   @Test
+   @Test(groups= {"Smoke"})
 	public void IOSBasicTest() throws MalformedURLException, FileNotFoundException, URISyntaxException  {
 
 	   HomePage homePage=new HomePage(driver);

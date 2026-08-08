@@ -9,11 +9,16 @@
 <listener class-name="TestUtils.Listeners">
 </listener>
 </listeners>
-  <test thread-count="5" name="End to ENd Test">
+  <test thread-count="5" name="End to End Test">
     <classes>
       <class name="Test.HybridAppTest_Android"/>
     </classes>
   </test> <!-- Test -->
+  <test thread-count="5" name="IOS Test">
+    <classes>
+      <class name="Test.AppiumIOSBasics"/>
+    </classes>
+  </test>
   <test thread-count="5" name="Login Test">
     <classes>
       <class name="Test.E_commerce_test_Android_dataParam"/>
